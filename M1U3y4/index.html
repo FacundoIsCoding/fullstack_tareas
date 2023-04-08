@@ -1,43 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>CV Nombre y Apellido</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <title>CV Facundo Lopez</title>
 </head>
 
 <body>
-    <h1>Facundo López</h1>
-    <img src="images/Foto CV.png" alt="Foto de Facundo Lopez">
-    <h2>Edad: 21 años</h2>
-    <h3>¿Que series me gustan?
-        <ul>
-            <li>Friends</li>
-            <li>How I met your mother</li>
-            <li>The Blacklist</li>
-        </ul>
-    </h3>
-    <h3>¿Que peliculas son las que mas me gustaron?
-        <ol>
-            <li>The Batman 2022</li>
-            <li>Interstellar</li>
-            <li>Avengers Endgame</li>
-        </ol>
-    </h3>
-    <h3 class="perfil">Perfil
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, repellendus aliquam obcaecati quidem
-            tempore sequi impedit! Molestias vitae, porro architecto repudiandae facere ratione optio mollitia modi
-            quisquam! Atque, quod beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et, tenetur
-            inventore deleniti explicabo beatae sint eos, aspernatur molestias ab corporis, non placeat ut ratione quam
-            harum nostrum asperiores culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae
-            error eos voluptas. Culpa fugiat eius, accusamus optio modi perferendis nobis distinctio dolorum impedit
-            dolorem labore odio aperiam voluptate blanditiis!</p>
-    </h3>
-    <p>Si quieres contactarme por favor completa el siguiente <a href="formulario.html" target="_blank">Formulario</a></p>
+    <!-- Nombre y apellido -->
+    <h1><img src="images/Foto CV.png" alt="Foto de Facundo Lopez">
+        <span>Facundo</span> López
+    </h1>
+    <!-- Flexbox -->
+    <section class="flex-container">
+        <div class="vl"></div>
+        <h2 class="datos">
+            <div class="maintext1">Datos Personales</div>
+            <ul>
+                <div class="text1">
+                    <li>Fecha de nacimiento<br> 8 de Julio de 2001</li><br>
+                    <li>Lugar de nacimiento<br> Isidro Casanova</li>
+                    <br>
+                    <li>Nacionalidad<br> Argentino</li>
+                    <br>
+                    <li>Estado civil<br> Soltero</li>
+                </div>
+            </ul>
+        </h2>
+        <h2 class="experiencia">
+            <div class="maintext2">Experiencia Laboral</div>
+            <ul>
+                <div class="text2">
+                    <li>Logística y distribución
+                        Feb 2022 - Feb 2023
+                        OCASA
+                    </li>
+                    <li>Representante de envíos
+                        Nov 2022 - Ene 2023
+                        Mercado Libre
+                    </li>
+                    <li>Logística y distribución
+                        Dic 2022 - Abr 2022
+                        D.A.C Fabrica de cerraduras
+                    </li>
+                    <li>Atención al cliente
+                        Ene 2020 - Nov 2021
+                        Maxikiosco, Isidro Casanova
+                    </li>
+                </div>
+            </ul>
+        </h2>
 
+        <h2 class="formacion">
+            <div class="maintext3">Formación</div>
+            <ul>
+                <div class="text3">
+                    <li>
+                        Diplomatura en Programación Web Full Stack(en curso) Mar 2023-Sep 2023
+                        Universidad Tecnológica Nacional
+                    </li>
+                    <li>
+                        Desarrollo Web Sep 2022 - Dic 2022
+                        Coderhouse
+                    </li>
+                    <li>
+                        Inglés Universitario Mar 2018 - Presente
+                        Universidad Nacional de La Matanza
+                    </li>
+                    <li>
+                        Inglés May 2006 - Dic 2017
+                        Instituto Cambridge
+                    </li>
+                </div>
+            </ul>
+        </h2>
+        <h2 class="referencias">
+            <div class="maintext4">Referencias Laborales</div>
+            <div class="text4">
+                <ul>
+                    <li>D.A.C - Logística y distribución
+                        Referente:David Carrizo
+                        Contacto:cerraduras_dac.srl@hotmail.com
+                        (54) 1156007880
+                    </li>
+                    <li>Mercado Libre - Representante de envíos
+                        Referente: Pablo Nus
+                        Contacto: pnus@randstad.com.ar
+                        (54) 1126795504
+                    </li>
+            </div>
+            </ul>
+        </h2>
+        <h2 class="aptitudes">
+            <div class="maintext5">Aptitudes</div><br>
+            <div class="text5">
+                Soy una persona que disfruta del
+                trabajo en equipo, los nuevos
+                aprendizajes y los desafíos que
+                puedan surgir en el ambiente
+                laboral.</div>
+        </h2>
+        <h2 class="contacto">
+            <div class="maintext6">Contacto</div>
+            <ul>
+                <div class="text6">
+                    <li>lopezfacundo61ar@gmail.com</li>
+                    <li>1138186427</li>
+                    <li>1755, Rafael Castillo</li>
+                </div>
+            </ul>
+        </h2>
+    </section>
 </body>
+<!-- Footer con linea horizontal -->
+<footer>
+    <hr>
+</footer>
 
 </html>
