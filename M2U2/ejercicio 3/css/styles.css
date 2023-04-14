@@ -1,0 +1,43 @@
+.flex-container {
+    height: 1000px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja1 {
+    height: 300px;
+    width: 20%;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja2 {
+    height: 300px;
+    width: 20%;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja3 {
+    height: 300px;
+    width: 20%;
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
