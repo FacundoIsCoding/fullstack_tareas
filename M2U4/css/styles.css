@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("https://wallpapers-hub.art/wallpaper-images/242348.jpg");
+    
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.subtexto {
+ text-decoration: none;
+ font-size: 24px;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.info {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none; 
+    background-color: aliceblue;
+}
