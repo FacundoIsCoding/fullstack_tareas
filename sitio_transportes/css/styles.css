@@ -1,0 +1,208 @@
+/* Fuente utilizada */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* estilos header */
+header {
+    background-color: #2e64a1;
+    padding: 16px 0;
+    background-image: url("../images/otros/banner.jpg");
+    /* background-repeat: no-repeat;
+    background-size:1910px 290px; */
+    height: 150px;
+    background-position: center;
+}
+
+header h1 {
+    color: #fafafa;
+    text-shadow: 3px 3px #2e64a1;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+/* fin */
+
+/* estilos nav */
+nav {
+    background-color: #6da9ed;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo {
+    background-color: #4c76a5;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* contenido del main */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #2e64a1;
+}
+
+
+.transporte,
+.transporte3 {
+    border: 5px solid #4c76a5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-break: pre;
+    line-height: 30px;
+}
+
+.transporte2 {
+    border: 5px solid #4c76a5;
+    display: flex;
+    flex-direction: row-reverse;
+    line-height: 30px;
+}
+
+.info {
+    font-size: 28px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 15px;
+}
+
+/* fin */
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-top: 0.5px;
+}
+
+/* Estilos para sección Registrarse */
+
+.formulario {
+    width: 99%;
+    height: 70vh;
+    margin: 0;
+    background-color: #4c76a5;
+    color: #fafafa;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+
+/* Estilos para la sección Destinos */
+
+.destinos {
+    text-shadow: 1px 1px #000000;
+    background-color: #4c76a5;
+    opacity: 80%;    
+}
+
+/* Fin */
+
+/* Inicio sección Nosotros */
+
+.historia p {
+    font-size: 18px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    background-color: orange    ;
+}
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.persona h5, 
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color:#2e64a1;
+}
+.persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.persona h6 {
+    font-size: 11px;
+    font-style: italic;
+}
+.persona p {
+    color: #666;
+    font-size: 10px;
+}
+

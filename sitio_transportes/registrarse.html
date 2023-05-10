@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="holder">
+            <img src="images/logo.png" width="100" alt="Transportes X">
+            <h1>Transportes X</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="novedades.html">Novedades</a></li>
+            <li><a class="activo" href="registrarse.html">Registrarse</a></li>
+        </ul>
+    </nav>
+    <main class="formulario">
+        <h1>Registrarse</h1>
+        <p>Por favor complete la información solicitada</p>
+        <fieldset>
+            <label for="primer-nombre">Nombre: <input id="primer-nombre" type="text" required /></label>
+            <label for="apellido">Apellido: <input id="apellido" type="text" required /></label>
+            <label for="email">Ingrese su Email: <input id="email" type="email" required /></label>
+            <label for="nueva-contraseña">Contraseña: <input id="nueva-contraseña" type="password" pattern="[a-z0-5]{8,}"
+                    required /></label>
+            <input type="submit" value="Enviar"/>
+        </fieldset>
+    </main>
+    <footer>
+        <p>Diseñado por Facundo - &copy;2023 </p>
+    </footer>
+</body>
+
+</html>
