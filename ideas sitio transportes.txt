@@ -1,0 +1,8 @@
+1-Agregar menu desplegable desde la seccion novedades en las cuales muestre
+las opciones "vuelos", "cruceros", "trenes". Alli crear alertas tipo pagina
+de trenes del gob de la ciudad.
+
+2-Cambiar los colores de la pagina usando la regla 60-30-10
+
+3-pensar tema del proyecto final para trabajarlo con tiempo, tendra que tener
+base de datos
