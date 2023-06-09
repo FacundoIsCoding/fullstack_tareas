@@ -57,5 +57,11 @@ const alumnos = [
   },
 ];
 
-const resultado = alumnos.filter(Number => Number.length <= 7);
+const resultado = alumnos.filter(function (alumno) {
+  return alumno.nota >= 7;
+})
 console.log(resultado);
+
+for(let i=0; i <resultado.length;i++){
+document.write(`<p>Alumnos: ${resultado[i].nombre}, Nota:${resultado[i].nota}</p>`)
+}
